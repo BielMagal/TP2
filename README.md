@@ -124,7 +124,7 @@ extras com suas respectivas pontuações **máximas**:
     labirinto, quando se pode libertar o ser criativo dentro de você!
   1. :star2: **Música (até 5%)**: você pode incluir ambientação sonora para
     seu labirinto que pode incluir uma música ambiente e efeitos sonoros.
-  1. **Qualquer outra idéia (??%)** que torne o labirinto mais interessante ou
+- **Qualquer outra idéia (??%)** que torne o labirinto mais interessante ou
     agradável aos sentidos. Essas idéias precisam ser documentadas e
     explicadas no documento de entrega do trabalho (`README.txt`).
 
