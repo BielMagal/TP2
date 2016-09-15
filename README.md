@@ -1,12 +1,6 @@
-# TP2# Trabalho Prático 2 - O Garra
+# TP2# Trabalho Prático 2 - O Labirinto
 
-Dizem que a [_"claw machine"_][claw-machine-hist] (máquina de garra)
-foi inventada por volta de 1893 e só em 1926 a primeira delas
-[foi patenteada como _"The Erie Digger"_][erie-digger].
-Mal sabiam eles que **"O Garra"** já existia muito antes disso e é o deus
-de pequenos alienígenas de borracha e verdinhos.
-
-[![O Garra](images/o-garra.gif)][o-garra-youtube]
+[![Keep Out!](images/Labirinto.png)]
 
 [claw-machine-hist]: http://thephoenix.com/boston/life/121907-secret-history-of-the-claw-machine/#ixzz453XJT39R
 [erie-digger]: https://www.youtube.com/watch?v=8T0e9aafCJQ&nohtml5
