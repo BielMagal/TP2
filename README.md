@@ -27,18 +27,18 @@ como funcionalidade básica, valendo 85% ou 75% (respectivamente) da
 nota, deve ter os seguintes itens:
 
 - **Mundo**:
-  1. Deve haver um mundo definido razoavelmente grande, com um "chão" que
-    pode ser modelado por um plano horizontal.
-    - No centro do mundo, deve haver uma **_claw machine_** simples,
-      modelada de forma hierárquica. A garra pode ser feito usando-se
-      apenas os sólidos da GLU e GLUT (cone, pirâmide, cubo, esfera,
-      cilindro etc.).
-    - Deve haver 1 tipo de objeto, com instâncias espalhadas dentro
-      da máquina (como brinquedos, balas etc.). Também é possível usar
-      apenas GLU e GLUT para eles.
-      - Os objetos podem estar espalhados de forma que um não fique em cima
-        do outro.
-- **Garra**:
+  1. O mapa deve ser carregado apartir dos pixels de uma imagem, onde as cores:
+    - Azul: Ponto inicial.
+    - Vermelho: Ponto final.
+    - Preto: Lugares inacessivéis.
+    - Branco: Caminhos possíveis.
+    Exemplo de Mapa:
+    ![Mapa!](images/Mapa.png)
+  Obs:  O caminho pode ser um plano;
+        As paredes podem ser objetos da GLU e GLUT (Cubos)  ou planos cercando o caminho;
+    
+  2. O fim deve ser um teleport para o inicio.
+- **Personagem**:
   - Ela deve possuir ao menos 3 "dedos" para pegar os objetos e
     deve ser capaz de executar o movimento de abertura e fechamento
     dos "dedos".
@@ -60,12 +60,18 @@ nota, deve ter os seguintes itens:
       você pode considerar todos como sendo esferas.
 - **Câmera**:
   1. Você deve usar projeção perspectiva via `glFrustum` ou `gluPerspective`.
-  1. A câmera deve estar posicionada simulando a forma como uma pessoa usa
-    uma _claw machine_: com uma visão frontal.
-    - Ao posicionar o _mouse_ próximo aos cantos laterais da tela, a câmera
-      deve, ligeiramente e de forma progressiva, olhar para esse lado, como
-      se o jogador estivesse girando a cabeça um pouco para a direita ou
-      esquerda.
+  2. Devem existir 2 tipos de câmeras:
+      1 - Câmera posicionada atrás do personagem; 
+      ![Camera Atrás!](images/Camera_Atras.jpg)
+      
+      2 - Câmera em primeira pessoa. (Como no labirinto de exemplo Keep Out!).
+      ![Camera 1P!](images/Camera_1P.png)
+
+  3. A Câmera deve:
+    - Rotacionar 90º para direita ao apertar a tecla "D" ou ![Right!](images/Right.png) ;
+    - Rotacionar 90º para esquerda ao apertar a tecla "A" ou ![Left!](images/Left.png) ;
+    - Movimentar junto com o personagem apartir das teclas "W" ou ![Up!](images/Up.png) para frente;
+    - Movimentar junto com o personagem apartir das teclas "S" ou ![Down!](images/Down.png) para trás;
 - **Gráficos**:
   1. Você deve usar o modelo de
     [iluminação do OpenGL, devidamente configurado][lighting].
