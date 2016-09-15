@@ -36,7 +36,7 @@ nota, deve ter os seguintes itens:
 
     ![Mapa!](images/Mapa.png)
     
-    Obs: baixe a imagem e amplie para verificar a cor em cada pixel.
+    **Obs: baixe a imagem e amplie para verificar a cor em cada pixel.**
     
   2. O personagem não pode atravessar objetos.
     
