@@ -40,8 +40,8 @@ nota, deve ter os seguintes itens:
     
   2. O personagem não pode atravessar objetos.
     
-  Obs:  O caminho pode ser um plano;
-        As paredes podem ser objetos da GLU e GLUT (Cubos)  ou planos cercando o caminho;
+     Obs:  O caminho pode ser um plano;
+           As paredes podem ser objetos da GLU e GLUT (Cubos)  ou planos cercando o caminho;
     
   2. O fim deve ser um teleport para o inicio.
 - **Personagem**:
