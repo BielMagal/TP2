@@ -61,10 +61,11 @@ nota, deve ter os seguintes itens:
 - **Câmera**:
   1. Você deve usar projeção perspectiva via `glFrustum` ou `gluPerspective`.
   2. Devem existir 2 tipos de câmeras:
+  
       1 - Câmera posicionada atrás do personagem; 
       ![Camera Atrás!](images/Camera_Atras.jpg)
       
-      2 - Câmera em primeira pessoa. (Como no labirinto de exemplo Keep Out!).
+      2 - Câmera em primeira pessoa.
       ![Camera 1P!](images/Camera_1P.png)
 
   3. A Câmera deve:
