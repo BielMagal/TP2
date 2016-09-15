@@ -63,7 +63,7 @@ nota, deve ter os seguintes itens:
       
       2 - Câmera em primeira pessoa.
       
-      ![Camera 1P!](images/Camera_1P.png)
+      ![Camera 1Pessoa!](images/Camera_1Pessoa.png)
 
   3. A Câmera deve:
     - Rotacionar 90º para esquerda ao apertar a tecla <kbd>A</kbd> ou <kbd>&larr;</kbd>;
