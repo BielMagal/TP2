@@ -88,16 +88,7 @@ extras com suas respectivas pontuações **máximas**:
 
 - Relativas aos **Objetos**:
   1. :star2: **Vários tipos (até 10%)**: em vez de apenas um tipo (_e.g._,
-    brinquedo), pode ter vários outros: celular, livro, pelúcia etc.
-  1. **Distribuídos de forma procedural (até 7%)**: em vez de determinar a
-    posição de cada objeto você mesmo, crie uma função que o faça de forma
-    aleatória ou pseudo-aleatória. Se optar por distribuição aleatória,
-    deve tomar cuidado para não colocar objetos "um-den-du-ôto". Veja este
-    [_post_ do fórum][obj-distribution] e os links nele sobre o assunto.
-  1. **Cenário descrito em arquivo (até 5%)**: em vez de instanciar os
-    objetos de forma _hard-coded_, crie um arquivo num formato proposto
-    por você mesmo (_e.g._, `objetos-claw-machine.tp2`) que descreve quantos,
-    que tipos, as posições e as orientações (rotação nos 3 eixos) dos objetos.
+    pedra), pode ter vários outros: tocha, caveira etc.
   1. :bomb: :boom: **Modelos no formato .obj (até 10%)**: em vez de usar os
     sólidos da GLU/GLUT, modele um objeto \*simples\* usando um _software_
     CAD, salve-o num formato \*simples\* (_e.g._, `.obj`) e carregue-o no
@@ -105,31 +96,18 @@ extras com suas respectivas pontuações **máximas**:
     como abrir um arquivo `.obj`, ler a informação sobre os vértices e
     desenhá-los... aqui estão alguns: [tutorial 1][obj-tut-1],
     [tutorial 2][obj-tut-2], [tutorial 3][obj-tut-3].
-  1. **Objetos amontoados (até 7%)**: remova a restrição (da
-    especificação básica) de que todos os objetos devem estar no chão e
-    coloque-os amontados. Repare que a garra precisa, então, saber reconhecer
-    direitinho com qual objeto houve colisão.
-  1. :bomb: :boom: **Física (até 8%)**: faça com que
-    os objetos obedeçam as leis da física para gravidade e atrito, de
-    forma que eles se (re)acomodem quando um objeto for retirado.
-- Relativas à **Garra**:
-  1. **Animação de abertura/fechamento (8%)**: faça a garra abrir e fechar,
-    quando for o caso, de forma animada.
+- Relativas ao **Mapa**:
+  1. :bomb: :bomb: :boom: **Mapas de forma procedural (até 15%)**: em vez de carregar o mapa apartir da imagem, gere mapas aleatórios que obedeçam as restrições;
+  1. :boom: **Multiplos Cenários(até 8%)**: em vez de instanciar um mapa unicio, crie outros mapas e mude ao passar de fase;
+- Relativas ao **Personagem**:
+  1. :bomb: :boom:**Animação de andar (até 10%)**: faça a movimentação correta do movimento das pernas ao andar de forma animada.
+  1. :boom: **Física (até 7%)**: faça com que
+    o personagem possa subir em objetos ao pular, por exemplo com a <kbd>barra de espaço</kbd>;
 - Relativas à **Câmera**:
-  1. Visões **laterais (5%)**: ao se pressionar <kbd>c</kbd> ou <kbd>v</kbd>, a
-    câmera deve trocar de posição como se o jogador tivesse andado para a
-    direita ou esquerda, passando a olhar para a máquina por outro lado.
-    Veja este [vídeo ilustrativo da câmera lateral][camera-lateral].
-  1. :star2: Câmera **_top-down_ (6%)**: crie uma câmera com vista de cima da
-    máquina. Essa câmera deve ser ativada quando a máquina estiver em
-    "modo automático". Findo o movimento da garra, a câmera deve ser
-    restabelecida.
-    - :star2: **Modo _cheat_ (+3%)**: faça com que uma tecla ative essa câmera.
-- Relativas a **Gráficos**:
   1. **Botões na tela (5%)**: em vez de teclas do teclado para tudo, use
     botões clicáveis via _mouse_.
   1. Fonte de **luz pontual (5%)**: além da fonte luminosa direcional, crie uma
-    ou mais fontes de luz pontuais em pontos estratégicos.
+    ou mais fontes de luz pontuais em pontos estratégicos. Como por exemplo Tochas!
   1. :star2: **Reshape (5%)**: permitir o redimensionamento da janela
     de visualização sem perda da razão de aspecto (sem que haja distorção
     de achatamento/alongamento).
@@ -140,14 +118,13 @@ extras com suas respectivas pontuações **máximas**:
     [efeitos visuais][visual-fx]. Repare que o cubo _skybox_ acompanha
     a posição, ou seja, não é possível se aproximar (e até sair) do cubo.
 - Outros adicionais:
-  1. **Outro tema (até 3%)**: por que se limitar a fazer uma simples
-    máquina de garra, quando também podemos pensar em (_e.g._): (a) um OVNI
-    abduzindo vacas transgênicas, ou (b) um navio pirata fantasma coletando
-    baús do tesouro amaldiçoados ou até mesmo (c) um braço cyborg coletando
-    petiscos em um prato, para comer. Liberte o ser criativo dentro de você!
+  1. :star2: **Modo _cheat_ (+3%)**: faça com que uma linha mostre o caminho direto.
+- Relativas a **Gráficos**:
+  1. **Outro tema (até 3%)**: por que se limitar a fazer um simples
+    labirinto, quando se pode libertar o ser criativo dentro de você!
   1. :star2: **Música (até 5%)**: você pode incluir ambientação sonora para
-    sua máquina que pode incluir uma música ambiente e efeitos sonoros.
-  1. **Qualquer outra idéia (??%)** que torne a máquina mais interessante ou
+    seu labirinto que pode incluir uma música ambiente e efeitos sonoros.
+  1. **Qualquer outra idéia (??%)** que torne o labirinto mais interessante ou
     agradável aos sentidos. Essas idéias precisam ser documentadas e
     explicadas no documento de entrega do trabalho (`README.txt`).
 
