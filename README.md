@@ -33,7 +33,9 @@ nota, deve ter os seguintes itens:
     - Preto: Lugares inacessivéis.
     - Branco: Caminhos possíveis.
     Exemplo de Mapa:
+
     ![Mapa!](images/Mapa.png)
+    
   Obs:  O caminho pode ser um plano;
         As paredes podem ser objetos da GLU e GLUT (Cubos)  ou planos cercando o caminho;
     
