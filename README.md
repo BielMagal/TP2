@@ -36,30 +36,24 @@ nota, deve ter os seguintes itens:
 
     ![Mapa!](images/Mapa.png)
     
+  2. O personagem não pode atravessar objetos.
+    
   Obs:  O caminho pode ser um plano;
         As paredes podem ser objetos da GLU e GLUT (Cubos)  ou planos cercando o caminho;
     
   2. O fim deve ser um teleport para o inicio.
 - **Personagem**:
-  - Ela deve possuir ao menos 3 "dedos" para pegar os objetos e
-    deve ser capaz de executar o movimento de abertura e fechamento
-    dos "dedos".
-    - Caso não queira modelá-la com dedos, você pode criar algo semelhante,
+  - Ele deve possuir ao menos 2 "pernas" para andar e um corpo
+    deve executar movimento ao andar (Não precisa ser um movimento perfeito, mas pelomenos mexer apenas enquanto está andando).
+    - Caso não queira modelá-lo com pernas, você pode criar algo semelhante,
       contanto que seja feita a modelagem de forma hierárquica (_i.e._, com
       `glPushMatrix()...glPopMatrix` aninhados)
-  - Pode ser controlada pelo usuário com movimentos em todos os
-    sentidos dos eixos X e Z utilizando as _"arrow keys"_
-    (<kbd>&uarr;</kbd><kbd>&rarr;</kbd><kbd>&darr;</kbd><kbd>&larr;</kbd>).
-  - A <kbd>barra de espaço</kbd> deve fazer o movimento para que
-    a barra desça para tentar capturar um objeto.
-    - Capturando ou não, a garra faz um movimento de descida, fecha os dedos,
-      faz o movimento da subida e depois de retorno à sua "posição de repouso",
-      só então abrindo os dedos e eventualmente liberando o objeto capturado.
-    - Durante a movimentação "automática", ela não pode ser controlada.
-  - Se a garra colide com um objeto, ela o captura, volta para sua altura
-    original, volta para sua posição de repouso e solta o objeto.
-    - Para fins de verificação de colisão entre a garra e os objetos,
-      você pode considerar todos como sendo esferas.
+  - Pode ser controlada pelo usuário com as _"arrow keys"_, onde:
+    1. <kbd>A;</kbd> ou <kbd>&larr;</kbd> rotacionam 90% para esquerda;
+    1. <kbd>D;</kbd> ou <kbd>&rarr;</kbd> rotacionam 90% para direita;
+    1. <kbd>W;</kbd> ou <kbd>&uarr;</kbd> andam para frente;
+    1. <kbd>S;</kbd> ou <kbd>&Darr;</kbd> andam para trás.
+    
 - **Câmera**:
   1. Você deve usar projeção perspectiva via `glFrustum` ou `gluPerspective`.
   2. Devem existir 2 tipos de câmeras:
