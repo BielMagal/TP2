@@ -65,9 +65,11 @@ nota, deve ter os seguintes itens:
   2. Devem existir 2 tipos de câmeras:
   
       1 - Câmera posicionada atrás do personagem; 
+
       ![Camera Atrás!](images/Camera_Atras.jpg)
       
       2 - Câmera em primeira pessoa.
+      
       ![Camera 1P!](images/Camera_1P.png)
 
   3. A Câmera deve:
