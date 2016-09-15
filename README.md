@@ -43,8 +43,7 @@ nota, deve ter os seguintes itens:
     
   2. O fim deve ser um teleport para o inicio.
 - **Personagem**:
-  - Ele deve possuir ao menos 2 "pernas" para andar e um corpo
-    deve executar movimento ao andar (Não precisa ser um movimento perfeito, mas pelomenos mexer apenas enquanto está andando).
+  - Ele deve possuir ao menos um corpo e 2 "pernas" para andar, deve executar algum movimento ao andar (Não precisa ser um movimento perfeito, mas pelomenos mexer apenas enquanto está andando).
     - Caso não queira modelá-lo com pernas, você pode criar algo semelhante,
       contanto que seja feita a modelagem de forma hierárquica (_i.e._, com
       `glPushMatrix()...glPopMatrix` aninhados)
