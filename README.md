@@ -2,11 +2,11 @@
 
 ![Keep Out!](images/Labirinto.png)
 
-[claw-machine-hist]: http://thephoenix.com/boston/life/121907-secret-history-of-the-claw-machine/#ixzz453XJT39R
-[erie-digger]: https://www.youtube.com/watch?v=8T0e9aafCJQ&nohtml5
-[o-garra-youtube]: https://youtu.be/3hHCZIGAsO0
+[First Exploration!]: https://www.youtube.com/watch?v=Efo14AGLWLg
+[Demons Everywhere!]: https://www.youtube.com/watch?v=0HXZA81ewN8
+[Death!]: https://www.youtube.com/watch?v=F6s-lrX_Yk4
 
-Neste trabalho, nosso objetivo é **criar uma máquina de garra***. Nosso
+Neste trabalho, nosso objetivo é **criar um labirinto***. Nosso
 objetivo é praticar os conceitos de projeção, iluminação, modelagem e
 efeitos visuais vistos em sala de aula.
 
