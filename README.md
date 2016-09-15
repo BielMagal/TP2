@@ -1,6 +1,6 @@
 # TP2# Trabalho Prático 2 - O Labirinto
 
-[![Keep Out!](images/Labirinto.png)]
+![Keep Out!](images/Labirinto.png)
 
 [claw-machine-hist]: http://thephoenix.com/boston/life/121907-secret-history-of-the-claw-machine/#ixzz453XJT39R
 [erie-digger]: https://www.youtube.com/watch?v=8T0e9aafCJQ&nohtml5
