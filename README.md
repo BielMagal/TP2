@@ -2,9 +2,11 @@
 
 ![Keep Out!](images/Labirinto.png)
 
-[_"First Exploration!"_][First Exploration!]: https://www.youtube.com/watch?v=Efo14AGLWLg
+[_"First Exploration!"_][First Exploration!]
 [Demons Everywhere!]: https://www.youtube.com/watch?v=0HXZA81ewN8
 [Death!]: https://www.youtube.com/watch?v=F6s-lrX_Yk4
+
+[First Exploration!]: https://www.youtube.com/watch?v=Efo14AGLWLg
 
 Neste trabalho, nosso objetivo é **criar um labirinto***. Nosso
 objetivo é praticar os conceitos de projeção, iluminação, modelagem e
