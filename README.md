@@ -7,10 +7,15 @@ Neste trabalho, nosso objetivo é **criar um labirinto**. Nosso
 objetivo é praticar os conceitos de projeção, iluminação, modelagem e
 efeitos visuais vistos em sala de aula.
 Um exemplo de labirinto pode ser visto no jogo [_"Keep Out"_][Keep Out].
+
 Videos Keep Out:
+
 [_"First Exploration!"_][First Exploration!]
+
 [_"Demons Everywhere!"_][Demons Everywhere!]
+
 [_"Death!"_][Death!]
+
 [Keep Out]: http://www.playkeepout.com/
 [Demons Everywhere!]: https://www.youtube.com/watch?v=0HXZA81ewN8
 [Death!]: https://www.youtube.com/watch?v=F6s-lrX_Yk4
