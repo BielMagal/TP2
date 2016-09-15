@@ -83,7 +83,7 @@ extras, até um limite de **125%** da pontuação original) funcionalidades adic
 podem/devem ser implementadas no jogo. Essas funcionalidades serão avaliadas
 conforme a **dificuldade da implementação**, o **efeito obtido** com ela no
 trabalho e a **qualidade da implementação**. Exemplos de funcionalidades
-extras com suas respectivas pontuações **máximas**:
+extras com suas respectivas pontuações **máximas**: 
 
 - Relativas aos **Objetos**:
   1. :star2: **Vários tipos (até 10%)**: em vez de apenas um tipo (_e.g._,
