@@ -2,15 +2,20 @@
 
 ![Keep Out!](images/Labirinto.png)
 
-[_"First Exploration!"_][First Exploration!]
-[Demons Everywhere!]: https://www.youtube.com/watch?v=0HXZA81ewN8
-[Death!]: https://www.youtube.com/watch?v=F6s-lrX_Yk4
 
-[First Exploration!]: https://www.youtube.com/watch?v=Efo14AGLWLg
-
-Neste trabalho, nosso objetivo é **criar um labirinto***. Nosso
+Neste trabalho, nosso objetivo é **criar um labirinto**. Nosso
 objetivo é praticar os conceitos de projeção, iluminação, modelagem e
 efeitos visuais vistos em sala de aula.
+Um exemplo de labirinto pode ser visto no jogo [_"Keep Out"_][Keep Out].
+Videos Keep Out:
+[_"First Exploration!"_][First Exploration!]
+[_"Demons Everywhere!"_][Demons Everywhere!]
+[_"Death!"_][Death!]
+[Keep Out]: http://www.playkeepout.com/
+[Demons Everywhere!]: https://www.youtube.com/watch?v=0HXZA81ewN8
+[Death!]: https://www.youtube.com/watch?v=F6s-lrX_Yk4
+[First Exploration!]: https://www.youtube.com/watch?v=Efo14AGLWLg
+
 
 Esse trabalho pode ser feito individualmente, ou em dupla, e
 como funcionalidade básica, valendo 85% ou 75% (respectivamente) da
