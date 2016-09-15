@@ -80,7 +80,7 @@ nota, deve ter os seguintes itens:
     necessariamente com textura).
 
 Para se obter o restante dos pontos do trabalho (ou até mesmo mais pontos
-extras, até um limite de 133% da pontuação original) funcionalidades adicionais
+extras, até um limite de **125%** da pontuação original) funcionalidades adicionais
 podem/devem ser implementadas no jogo. Essas funcionalidades serão avaliadas
 conforme a **dificuldade da implementação**, o **efeito obtido** com ela no
 trabalho e a **qualidade da implementação**. Exemplos de funcionalidades
