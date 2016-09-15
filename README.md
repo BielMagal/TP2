@@ -49,10 +49,10 @@ nota, deve ter os seguintes itens:
       contanto que seja feita a modelagem de forma hierárquica (_i.e._, com
       `glPushMatrix()...glPopMatrix` aninhados)
   - Pode ser controlada pelo usuário com as _"arrow keys"_, onde:
-    1. <kbd>A;</kbd> ou <kbd>&larr;</kbd> rotacionam 90% para esquerda;
-    1. <kbd>D;</kbd> ou <kbd>&rarr;</kbd> rotacionam 90% para direita;
-    1. <kbd>W;</kbd> ou <kbd>&uarr;</kbd> andam para frente;
-    1. <kbd>S;</kbd> ou <kbd>&Darr;</kbd> andam para trás.
+    1. <kbd>A</kbd> ou <kbd>&larr;</kbd> rotacionam 90% para esquerda;
+    1. <kbd>D</kbd> ou <kbd>&rarr;</kbd> rotacionam 90% para direita;
+    1. <kbd>W</kbd> ou <kbd>&uarr;</kbd> andam para frente;
+    1. <kbd>S</kbd> ou <kbd>&Darr;</kbd> andam para trás.
     
 - **Câmera**:
   1. Você deve usar projeção perspectiva via `glFrustum` ou `gluPerspective`.
@@ -67,10 +67,10 @@ nota, deve ter os seguintes itens:
       ![Camera 1P!](images/Camera_1P.png)
 
   3. A Câmera deve:
-    - Rotacionar 90º para direita ao apertar a tecla "D" ou <kbd>&rarr;</kbd>;
-    - Rotacionar 90º para esquerda ao apertar a tecla "A" ou <kbd>&larr;</kbd>;
-    - Movimentar junto com o personagem apartir das teclas "W" ou <kbd>&uarr;</kbd> para frente;
-    - Movimentar junto com o personagem apartir das teclas "S" ou <kbd>&darr;</kbd> para trás;
+    - Rotacionar 90º para esquerda ao apertar a tecla <kbd>A</kbd> ou <kbd>&larr;</kbd>;
+    - Rotacionar 90º para direita ao apertar a tecla <kbd>D</kbd> ou <kbd>&rarr;</kbd>;
+    - Movimentar junto com o personagem apartir das teclas <kbd>W</kbd> ou <kbd>&uarr;</kbd> para frente;
+    - Movimentar junto com o personagem apartir das teclas <kbd>S</kbd> ou <kbd>&darr;</kbd> para trás;
 - **Gráficos**:
   1. Você deve usar o modelo de
     [iluminação do OpenGL, devidamente configurado][lighting].
@@ -97,7 +97,7 @@ extras com suas respectivas pontuações **máximas**:
     desenhá-los... aqui estão alguns: [tutorial 1][obj-tut-1],
     [tutorial 2][obj-tut-2], [tutorial 3][obj-tut-3].
 - Relativas ao **Mapa**:
-  1. :bomb: :bomb: :boom: **Mapas de forma procedural (até 15%)**: em vez de carregar o mapa apartir da imagem, gere mapas aleatórios que obedeçam as restrições;
+  1. :bomb: :bomb: :boom: **Mapas de forma procedural (até 15%)**: em vez de carregar o mapa a partir da imagem, gere mapas aleatórios que obedeçam as restrições;
   1. :boom: **Multiplos Cenários(até 8%)**: em vez de instanciar um mapa unicio, crie outros mapas e mude ao passar de fase;
 - Relativas ao **Personagem**:
   1. :bomb: :boom:**Animação de andar (até 10%)**: faça a movimentação correta do movimento das pernas ao andar de forma animada.
