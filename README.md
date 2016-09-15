@@ -186,7 +186,7 @@ Alguns descuidos podem fazer com que sua nota fique abaixo do esperado:
  maneira abaixo. Considere `x` como dias de atraso e `y` a penalidade
  percentual na nota:
 
- ![Fórmula de penalidade por atraso](../../images/penalidade-por-atraso.png)
+ ![Fórmula de penalidade por atraso](images/penalidade-por-atraso.png)
  - Isso implica que 1 ou 2 dias de atraso são pouco penalizados
  - E após 5 dias de atraso, o trabalho vale 0
  - _Seeing is believing_: https://www.google.com.br/search?q=y%3D(2%5E(x-2)%2F0.16)%2Cy%3D100
