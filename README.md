@@ -82,7 +82,7 @@ nota, deve ter os seguintes itens:
     [iluminação do OpenGL, devidamente configurado][lighting].
     - Basta que sua cena tenha 1
     [fonte de luz direcional][lighting-directional].
-  1. Todos os objetos da cena devem ter materiais configurados (não
+  1. Todas as paredes e objetos da cena devem ter materiais configurados (não
     necessariamente com textura).
 
 Para se obter o restante dos pontos do trabalho (ou até mesmo mais pontos
