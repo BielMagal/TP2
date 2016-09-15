@@ -68,10 +68,10 @@ nota, deve ter os seguintes itens:
       ![Camera 1P!](images/Camera_1P.png)
 
   3. A Câmera deve:
-    - Rotacionar 90º para direita ao apertar a tecla "D" ou [Right!](images/Right.png) ;
-    - Rotacionar 90º para esquerda ao apertar a tecla "A" ou [Left!](images/Left.png) ;
-    - Movimentar junto com o personagem apartir das teclas "W" ou [Up!](images/Up.png) para frente;
-    - Movimentar junto com o personagem apartir das teclas "S" ou [Down!](images/Down.png) para trás;
+    - Rotacionar 90º para direita ao apertar a tecla "D" ou <kbd>&rarr;</kbd>;
+    - Rotacionar 90º para esquerda ao apertar a tecla "A" ou <kbd>&larr;</kbd>;
+    - Movimentar junto com o personagem apartir das teclas "W" ou <kbd>&uarr;</kbd> para frente;
+    - Movimentar junto com o personagem apartir das teclas "S" ou <kbd>&darr;</kbd> para trás;
 - **Gráficos**:
   1. Você deve usar o modelo de
     [iluminação do OpenGL, devidamente configurado][lighting].
