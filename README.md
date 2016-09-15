@@ -133,6 +133,8 @@ Legenda dos ícones:
   - :star2:: item sugerido por ser interessante ou super simplão.
   - :collision:: item com maior complexidade de implementação - não
     comece por estes!!
+  - :bomb:: item com alta complexidade de implementação - Deixe para o fim!!
+  - :bomb::bomb:: Bombas... nível hardcore!
 
 ## Instruções gerais
 
